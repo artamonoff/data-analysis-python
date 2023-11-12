@@ -11,7 +11,7 @@
 |Windows|`jupyter notebook`|
 |Mac OS|`~/miniconda3/bin/jupyter notebook`|
 
-Запуск Jupyter Notebook из командной строки (Anaconda PowerShell Prompt в Windows, Terminal в MacOS) 
+Запуск Jupyter Lab из командной строки (Anaconda PowerShell Prompt в Windows, Terminal в MacOS) 
 
 |OS|Комманда|
 |-|-|
