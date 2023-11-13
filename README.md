@@ -2,6 +2,8 @@
 
 ## Jupyter Notebook & Lab
 
+Файлы Jupyter Notebook имеют расширение `.ipynb`
+
 ### Запуск
 
 Запуск Jupyter Notebook из командной строки (Anaconda PowerShell Prompt в Windows, Terminal в MacOS) 
