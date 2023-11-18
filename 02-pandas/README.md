@@ -65,6 +65,10 @@
 |`.sum(axis=0, skipna=True, numeric_only=False)`| сумма вдоль оси axis|
 |`.mean(axis=0, skipna=True, numeric_only=False)`| среднее вдоль оси axis|
 |`.median(axis=0, skipna=True, numeric_only=False)`|медиана вдоль оси axis|
+|`.count()`| число наблюдения по каждому столбцу|
+|`.value_counts(subset=None, dropna=True)`| частота различных значений в столбцах `subset`|
 |`.dropna(axis=0)`| удалить строки (axis=0)/столбцы(axis=1) с пропуцщенными наблюдениями|
 |`.drop(index=None, columns=None)`| удалить строки/столбцы (по названиям)|
 |`.plot()`|базовая визуализация|
+|`.to_csv('Filenale,csv', sep=',', decimal='.')`| экспорт в файл CSV|
+|`.to_excel('Filenale.xlsx', sheet_name='Sheet1',header=True, index=True)`| экспорт в файл MS Excel|
