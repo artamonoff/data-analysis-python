@@ -58,6 +58,7 @@
 |-|-|
 |`.head(n=5)`|первые n наблюдений|
 |`.tail(n=5)`|последние n наблюдений|
+|`.round(decimals=0`| округление|
 |`.describe(percentiles=None, include=None, exclude=None)`|описательные статистик по переменным|
 |`.corr(method='pearson', numeric_only=False)`| корреляционная матрица|
 |`.min(axis=0, skipna=True, numeric_only=False)`| минимум вдоль оси axis|
