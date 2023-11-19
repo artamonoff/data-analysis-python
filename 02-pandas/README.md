@@ -78,12 +78,8 @@
 
 ## Манипуляция с данными
 
-Выбрать столбцы по именам: DataFrame[list_of_cols] или DataFrame.loc[list_of_cols]
-
-Выбрать данные по логическому условию: DataFrame[logic_condition]
-
-Добавить новый столбец(ы): DataFrame[list_of_new_cols] = 
-
-Арифметические преобразование: автоматические для целого столбца
-
-Преоьбразованиея через функции: функции из библиотеки `numpy` (`numpy.log`, `numpy.abs` etc)
+- Выбрать столбцы по именам: `DataFrame[list_of_cols]` или `DataFrame.loc[list_of_cols]`
+- Выбрать данные по логическому условию: `DataFrame[logical_condition]`
+- Добавить новый столбец(ы): `DataFrame[list_of_new_cols] =`
+- Арифметические преобразование: автоматические для целого столбца
+- Преобразование через функции: функции из библиотеки `numpy` (`numpy.log`, `numpy.abs` etc)
