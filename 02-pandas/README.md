@@ -38,6 +38,7 @@
 |`.read_excel('Filename.xlsx', sheet_name=0, header=0)`|Испорт данных из файла MS Excel|
 |`.DataFrame(data, index=None, columns=None)`|создание нового датафрейма (data – объект numpy, словарь, ...)|
 |`.concat(objs, axis=0`| слияние датафреймов водль оси axis|
+|`.get_dummies(data, prefix=None, prefix_sep='_', columns=None)`|преобразовать категориальных переменных в дамми|
 
 ## Основные свойства и методы pandas.DataFrame
 
@@ -66,8 +67,23 @@
 |`.median(axis=0, skipna=True, numeric_only=False)`|медиана вдоль оси axis|
 |`.count()`| число наблюдения по каждому столбцу|
 |`.value_counts(subset=None, dropna=True)`| частота различных значений в столбцах `subset`|
+|`.isna()`| обнаружение пропущенных значений|
 |`.dropna(axis=0)`| удалить строки (axis=0)/столбцы(axis=1) с пропуцщенными наблюдениями|
 |`.drop(index=None, columns=None)`| удалить строки/столбцы (по названиям)|
 |`.plot()`|базовая визуализация|
 |`.to_csv('Filenale,csv', sep=',', decimal='.')`| экспорт в файл CSV|
 |`.to_excel('Filenale.xlsx', sheet_name='Sheet1',header=True, index=True)`| экспорт в файл MS Excel|
+
+**Замечание** большинство методов возвращает датафрейм
+
+## Манипуляция с данными
+
+Выбрать столбцы по именам: DataFrame[list_of_cols] или DataFrame.loc[list_of_cols]
+
+Выбрать данные по логическому условию: DataFrame[logic_condition]
+
+Добавить новый столбец(ы): DataFrame[list_of_new_cols] = 
+
+Арифметические преобразование: автоматические для целого столбца
+
+Преоьбразованиея через функции: функции из библиотеки `numpy` (`numpy.log`, `numpy.abs` etc)
