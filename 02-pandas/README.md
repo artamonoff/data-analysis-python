@@ -37,7 +37,7 @@
 |`.read_csv('Filename.csv', sep=',', decimal='.')`|Импорт данных из файла CSV|
 |`.read_excel('Filename.xlsx', sheet_name=0, header=0)`|Импорт данных из файла MS Excel|
 |`.DataFrame(data, index=None, columns=None)`|создание нового датафрейма (data – объект numpy, словарь, ...)|
-|`.concat(objs, axis=0`| слияние датафреймов водль оси axis|
+|`.concat(objs, axis=0`| слияние датафреймов вдоль оси axis|
 |`.get_dummies(data, prefix=None, prefix_sep='_', columns=None)`|преобразовать категориальных переменных в дамми|
 
 ## Основные свойства и методы pandas.DataFrame
@@ -68,7 +68,7 @@
 |`.count()`| число наблюдения по каждому столбцу|
 |`.value_counts(subset=None, dropna=True)`| частота различных значений в столбцах `subset`|
 |`.isna()`| обнаружение пропущенных значений|
-|`.dropna(axis=0)`| удалить строки (axis=0)/столбцы(axis=1) с пропуцщенными наблюдениями|
+|`.dropna(axis=0)`| удалить строки (axis=0)/столбцы(axis=1) с пропущенными наблюдениями|
 |`.drop(index=None, columns=None)`| удалить строки/столбцы (по названиям)|
 |`.plot()`|базовая визуализация|
 |`.to_csv('Filenale,csv', sep=',', decimal='.')`| экспорт в файл CSV|
@@ -84,7 +84,7 @@
 - Арифметические преобразование: автоматические для целого столбца
 - Преобразование через функции: функции из библиотеки `numpy` (`numpy.log`, `numpy.abs` etc)
 
-## Базования визуализация
+## Базовая визуализация
 
 Используем [`DataFrame.plot(*args)`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html#pandas.DataFrame.plot)
 
@@ -115,4 +115,4 @@
 - `.bar(x=None, y=None)`
 - `.boxplot(column=None)`
 - `.pie(y)`
-- `.scatter(x, y, s=None, c=None)` (s - размер, c - цвет, могут зависить от переменной)
+- `.scatter(x, y, s=None, c=None)` (s - размер, c - цвет, могут зависеть от переменной)
