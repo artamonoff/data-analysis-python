@@ -17,7 +17,8 @@
 - leis3: rlxall - totwrk
 - smsa: =1 if live in smsa
 - lhrwage: log hourly wage
-- lothinc: log othinc, unless othinc < 0 - male: =1 if male
+- lothinc: log othinc, unless othinc < 0
+- male: =1 if male
 - marr: =1 if married
 - prot: =1 if Protestant
 - rlxall: slpnaps + personal activs
