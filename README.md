@@ -55,6 +55,6 @@
 В командной строке (Anaconda PowerShell Prompt в Windows, Terminal в MacOS) выполнить следующие команды (это нужно сделать только один раз!)
 
 - `conda install -c plotly plotly`
-- `conda install pandas numpy scipy statsmodels`
+- `conda install pandas numpy scipy statsmodels openpyxl`
 - `conda install -c anaconda jupyter jupyterlab pandas-datareader seaborn`
 - `conda install -c conda-forge yfinance matplotlib`
