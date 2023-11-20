@@ -34,8 +34,8 @@
 
 |Метод|Описание|
 |-|-|
-|`.read_csv('Filename.csv', sep=',', decimal='.')`|Испорт данных из файла CSV|
-|`.read_excel('Filename.xlsx', sheet_name=0, header=0)`|Испорт данных из файла MS Excel|
+|`.read_csv('Filename.csv', sep=',', decimal='.')`|Импорт данных из файла CSV|
+|`.read_excel('Filename.xlsx', sheet_name=0, header=0)`|Импорт данных из файла MS Excel|
 |`.DataFrame(data, index=None, columns=None)`|создание нового датафрейма (data – объект numpy, словарь, ...)|
 |`.concat(objs, axis=0`| слияние датафреймов водль оси axis|
 |`.get_dummies(data, prefix=None, prefix_sep='_', columns=None)`|преобразовать категориальных переменных в дамми|
@@ -49,7 +49,7 @@
 |`.size`|число элементов|
 |`.dtypes`|тип данных по столбцам/переменным|
 |`.T`|транспонирование|
-|`.iloc[]`|выбрать строки по номерам|
+|`.iloc[]`|выбрать строки/столбцы по номерам|
 |`.loc[]`|выбрать столбы по названиям|
 
 
@@ -78,9 +78,9 @@
 
 ## Манипуляция с данными
 
-- Выбрать столбцы по именам: `DataFrame[list_of_cols]` или `DataFrame.loc[list_of_cols]`
+- Выбрать столбцы по именам: `DataFrame[list_of_cols]` или `DataFrame.loc[list_of_rows, list_of_cols]`
 - Выбрать данные по логическому условию: `DataFrame[logical_condition]`
-- Добавить новый столбец(ы): `DataFrame[list_of_new_cols] =`
+- Добавить новый столбец(ы): `DataFrame[list_of_new_cols] =` или `DataFrame.loc[:, list_of_new_cols]=`
 - Арифметические преобразование: автоматические для целого столбца
 - Преобразование через функции: функции из библиотеки `numpy` (`numpy.log`, `numpy.abs` etc)
 
