@@ -58,3 +58,7 @@
 - `conda install pandas numpy scipy statsmodels openpyxl`
 - `conda install -c anaconda jupyter jupyterlab pandas-datareader seaborn`
 - `conda install -c conda-forge yfinance matplotlib`
+
+## Обновление установленных библиотек
+
+В командной строке (Anaconda PowerShell Prompt в Windows, Terminal в MacOS) выполнить `conda update --all`
