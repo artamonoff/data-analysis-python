@@ -27,7 +27,7 @@
 |диаграмма рассеяния с регрессией|`.regplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.regplot.html#seaborn.regplot)|
 |линейная диаграмма|`.lineplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.lineplot.html#seaborn.lineplot)|
 |гистограмма|`.histplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn.histplot)|
-|столбчатая диаграмма|`.catplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.catplot.html#seaborn.catplot)|
+|столбчатая диаграмма|`.histplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn.histplot)|
 |коробчатая диаграмма|`.boxplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.boxplot.html#seaborn.boxplot)|
 |температурная диаграмма|`.heatmap()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.heatmap.html#seaborn.heatmap)|
 
