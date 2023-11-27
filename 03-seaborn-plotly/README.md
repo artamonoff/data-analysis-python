@@ -57,6 +57,9 @@
 |3d диаграмма рассеяния|`.scatter_3d()`|[ссылка](https://plotly.com/python/line-and-scatter)|
 
 ***Замечание*: интерфейс для построение графиков в `plotly`
+
 `fig = ax.method()`
+
 `# fig.update_layout()`
+
 `fir.show()`
