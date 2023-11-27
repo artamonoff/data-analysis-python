@@ -2,7 +2,7 @@
 
 Библиотека [`seaborn`](https://seaborn.pydata.org) позволяет визуализировать статистические данные и быстро строить широкий спектр 2D графиков.
 
-Библиотека [`plotly`](https://plotly.com/python/) позволяет сроить широкий спектр 2D и 3D графиков с элементами интерактива.
+Библиотека [`plotly`](https://plotly.com/python/) позволяет строить широкий спектр 2D и 3D графиков с элементами интерактива.
 
 Базовые графики:
 
@@ -25,6 +25,7 @@
 |-|-|-|
 |диаграмма рассеяния|`.scatterplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.scatterplot.html#seaborn.scatterplot)|
 |диаграмма рассеяния с регрессией|`.regplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.regplot.html#seaborn.regplot)|
+|как выше, но с разбивкой по сетке |`.lmplot`|[ссылка](https://seaborn.pydata.org/generated/seaborn.lmplot.html#seaborn.lmplot)|
 |линейная диаграмма|`.lineplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.lineplot.html#seaborn.lineplot)|
 |гистограмма|`.histplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn.histplot)|
 |столбчатая диаграмма|`.histplot()`|[ссылка](https://seaborn.pydata.org/generated/seaborn.histplot.html#seaborn.histplot)|
