@@ -48,7 +48,6 @@
 
 |График|Метод|Ссылка|
 |-|-|-|
-|2d диаграмма рассеяния|`.scatter()`|[ссылка](https://plotly.com/python/line-and-scatter)|
 |2d диаграмма рассеяния с регрессией|`.scatter()`|[ссылка](https://plotly.com/python/line-and-scatter)|
 |линейная диаграмма|`.line()`|[ссылка](https://plotly.com/python/line-and-scatter)|
 |гистограмма|`.histogram()`|[ссылка](https://plotly.com/python/histograms/)|
