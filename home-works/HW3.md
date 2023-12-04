@@ -20,7 +20,7 @@
 ## №3
 
 Для датафрейма из предыдущего задания нарисуйте диаграммы рассеяния с подогнанной прямой
--  1-Year Treasury Bill против Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity
+- 1-Year Treasury Bill против Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity
 - Moody's Seasoned Aaa Corporate Bond Yield против Moody's Seasoned Baa Corporate Bond Yield
 
 ## №4

@@ -54,6 +54,7 @@
 |столбчатая диаграмма|`.bar()`|[ссылка](https://plotly.com/python/bar-charts/)|
 |коробчатая диаграмма|`.box()`|[ссылка](https://plotly.com/python/box-plots/)|
 |круговая|`.pie()`|[ссылка](https://plotly.com/python/pie-charts/)|
+|температурная карта|`.imshow()`|[ссылка](https://plotly.com/python/heatmaps/)|
 |3d диаграмма рассеяния|`.scatter_3d()`|[ссылка](https://plotly.com/python/line-and-scatter)|
 
 **Замечание**: интерфейс для построение графиков в `plotly`
