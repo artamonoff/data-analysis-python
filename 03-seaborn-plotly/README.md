@@ -56,10 +56,10 @@
 |круговая|`.pie()`|[ссылка](https://plotly.com/python/pie-charts/)|
 |3d диаграмма рассеяния|`.scatter_3d()`|[ссылка](https://plotly.com/python/line-and-scatter)|
 
-***Замечание*: интерфейс для построение графиков в `plotly`
+**Замечание**: интерфейс для построение графиков в `plotly`
 
-`fig = ax.method()`
+`fig = px.method()`
 
 `# fig.update_layout()`
 
-`fir.show()`
+`fig.show()`
