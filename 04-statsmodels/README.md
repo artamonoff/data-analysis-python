@@ -32,6 +32,7 @@
 - `import statsmodels.api as sm`: регрессии, спецификация через матрицы регрессионного дизайна
 - `import statsmodels.formula.api as smf`: регрессии, спецификация через формулу
 - `import statsmodels.tsa.api as tsa`: модели временных рядов
+- `import statsmodels.graphics.api as smg`: графики для регрессионного анализа
 
 ## Работа с моделями из Statsmodels
 
