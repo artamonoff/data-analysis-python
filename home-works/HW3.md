@@ -9,7 +9,7 @@
 
 ## №2
 
-Загрузите из БД FRED **месячные** данные по следующим ставкам в один датафрейм
+Загрузите из БД FRED **месячные** данные по следующим ставкам в один датафрейм (с 2000 г. по н.в.)
 - 1-Year Treasury Bill
 - Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity
 - Moody's Seasoned Aaa Corporate Bond Yield
