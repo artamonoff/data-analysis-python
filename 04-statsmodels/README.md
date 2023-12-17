@@ -167,7 +167,7 @@
 
 Параметр `missing` позволяет контролировать что делать с пропущенными наблюдениями. Возможные значения `none, drop, raise`.
 
-В результате создаётся объект класса [`Logit`](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.Logit.html#statsmodels.discrete.discrete_model.Logit) или ['Probit](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.Probit.html#statsmodels.discrete.discrete_model.Probit).
+В результате создаётся объект класса [`Logit`](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.Logit.html#statsmodels.discrete.discrete_model.Logit) или [`Probit`](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.Probit.html#statsmodels.discrete.discrete_model.Probit).
 
 ### Подгонка модели
 
