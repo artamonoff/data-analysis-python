@@ -157,6 +157,8 @@
 |`.f_pvalue`|P-значение на значимость регрессии|
 |`.resid`|остатки|
 |`.fittedvalues`|предсказанные значения|
+|`.predict()`|Прогноз|
+|`.conf_int()`|Доверительные интервалы|
 
 ## logit/probit регрессия в statsmodels (классы `Logit`, `Probit` & `LogitResults`, `ProbitResults`)
 
