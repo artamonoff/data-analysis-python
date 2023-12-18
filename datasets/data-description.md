@@ -200,3 +200,31 @@ Expenditure and Default Data, 13,444 observations [Source](https://pages.stern.n
 - Exp_Inc = Ratio of monthly credit card expenditure to yearly income,
 - Spending = Average monthly credit card expenditure (for Cardhldr = 1),
 - Logspend = Log of spending.
+
+## Mishkin
+
+monthly observations from 1950-2 to 1990-12
+
+*number of observations* : 491
+
+*country* : United States
+
+- pai1: one-month inflation rate (in percent, annual rate)
+- pai3: three-month inflation rate (in percent, annual rate)
+- tb1: one-month T-bill rate (in percent, annual rate)
+- tb3: three-month T-bill rate (in percent, annual rate)
+- cpi: CPI for urban consumers, all items (the 1982-1984 average is set to 100)
+
+*Источник*: Mishkin, F. (1992) “Is the Fisher effect for real ?”, Journal of Monetary Economics, 30, 195-215.
+
+## Tbrate
+
+*quarterly observations* from 1950-1 to 1996-4
+
+*number of observations8 : 188
+
+*country* : Canada
+
+- r: the 91-day treasury bill rate
+- y: the log of real GDP
+- pi: the inflation rate
