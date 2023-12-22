@@ -2,7 +2,7 @@
 
 ## Введение
 
-Библиотека [`statsmodels`](https://www.statsmodels.org/) является одной базовых для статистического и эконометрического анализа.
+Библиотека [`statsmodels`](https://www.statsmodels.org/) является одной из базовых для статистического и эконометрического анализа.
 Она включает ([ссылка](https://www.statsmodels.org/stable/user-guide.html))
 
 - Регрессионные и линейные модели (основное):
@@ -111,7 +111,7 @@
 
 ### Вывод результатов подгонки
 
-Общий протокол подгонки модели регрессии выводится методом [`.summary``](https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.RegressionResults.summary.html#statsmodels.regression.linear_model.RegressionResults.summary)`(yname=None, xname=None, title=None, alpha=0.05, slim=False)`
+Общий протокол подгонки модели регрессии выводится методом [`.summary`](https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.RegressionResults.summary.html#statsmodels.regression.linear_model.RegressionResults.summary)`(yname=None, xname=None, title=None, alpha=0.05, slim=False)`
 
 - `slim`: выводить полный или сокращенный протокол подгонки (значения `True/False`)
 - `alpha`: уровень значимости (для доверительных интервалов)
@@ -130,6 +130,7 @@
 |`.f_test()`|F-тест на линейные ограничения|
 |`.t_test()`|t-тест для коэффициентов (общий)|
 |`.wald_test()`|Тест Вальда на линейные ограничения (аналогичен F-тесту)|
+|`.conf_int()`|Доверительные интервалы|
 
 ### Диагностика модели
 
@@ -159,7 +160,6 @@
 |`.resid`|остатки|
 |`.fittedvalues`|предсказанные значения|
 |`.predict()`|Прогноз|
-|`.conf_int()`|Доверительные интервалы|
 
 ## logit/probit регрессия в statsmodels (классы `Logit`, `Probit` & `LogitResults`, `ProbitResults`)
 
