@@ -91,7 +91,7 @@
 *спецификация через матрицы регрессионного дизайна*: 
 - `PooledOLS(dependent, exog)`
 - `RandomEffects(dependent, exog)`
-- `PanelOLS(dependent, exog, entity_effects-False, time_effects=False, drop_absorbed=True)`
+- `PanelOLS(dependent, exog, entity_effects=False, time_effects=False, drop_absorbed=True)`
 
 В результате создаётся объект соответствующего класса
 
@@ -130,7 +130,7 @@
 
 Параметры:
 - `results`: список или словарь из подогнанных моделей
-- `precision`: что будет выводиться в скобках под коэффициентами (`std-errors`, `std_errors`)
+- `precision`: что будет выводиться в скобках под коэффициентами (альтернативно `std-errors`, `std_errors`)
 - `stars`: коды значимости
 
 Его можно импортировать так `from linearmodels.panel import compare`.
@@ -138,8 +138,6 @@
 Таблицу с регрессиями модно сохранить в виде файла использую методы `.summary.as_csv()`, `.summary.as_latex()`, `.summary.as_html()`, `.summary.as_text()`
 
 ### Тестирование гипотез
-
-Результаты t-тестя для коэффициентов можно вывести методом `statsmodels.iolib.summary2.summary_params`
 
 Основные методы класса `RegressionResults`
 
