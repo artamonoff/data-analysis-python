@@ -221,10 +221,85 @@ monthly observations from 1950-2 to 1990-12
 
 *quarterly observations* from 1950-1 to 1996-4
 
-*number of observations8 : 188
+*number of observations* : 188
 
 *country* : Canada
 
 - r: the 91-day treasury bill rate
 - y: the log of real GDP
 - pi: the inflation rate
+
+## Панельные данные
+
+### Wages (Panel Data of Individual Wages)
+
+A panel of 595 individuals from 1976 to 1982, taken from the Panel Study of Income Dynamics
+
+*total number of observations* : 4165
+*country* : United States
+
+- exp years of full-time work experience. 
+- wks weeks worked.
+- bluecol blue collar?
+- ind works in a manufacturing industry? 
+- south resides in the south?
+- smsa resides in a standard metropolitan statistical area? 
+- married married?
+- sex a factor with levels "male" and "female"
+- union individual’s wage set by a union contract?
+- ed years of education.
+- black is the individual black? 
+- lwage logarithm of wage.
+- id, time individual & time indices
+
+### Guns (More Guns, Less Crime?)
+
+Guns is a balanced panel of data on 50 US states, plus the District of Columbia (for a total of 51 states), by year for 1977–1999.
+
+*number of observations* : 1173
+
+- state factor indicating state.
+- year factor indicating year.
+- violent violent crime rate (incidents per 100,000 members of the population).
+- murder murder rate (incidents per 100,000).
+- robbery robbery rate (incidents per 100,000).
+- prisoners incarceration rate in the state in the previous year (sentenced prisoners per 100,000 res- idents; value for the previous year).
+- afam percent of state population that is African-American, ages 10 to 64. 
+- cauc percent of state population that is Caucasian, ages 10 to 64.
+- male percent of state population that is male, ages 10 to 29.
+- population state population, in millions of people.
+- income real per capita personal income in the state (US dollars). 
+- density population per square mile of land area, divided by 1,000. 
+- law factor. Does the state have a shall carry law in effect in that year?
+
+*Источник*: Ayres, I., and Donohue, J.J. (2003). Shooting Down the ‘More Guns Less Crime’ Hypothesis. Stanford Law Review, 55, 1193–1312.
+
+### Cigar (Cigarette Consumption)
+
+a panel of 46 observations from 1963 to 1992
+
+*total number of observations* : 1380
+*country* : United States
+
+- state state abbreviation
+- year the year
+- price price per pack of cigarettes
+- pop population
+- pop16 population above the age of 16
+- cpi consumer price index (1983=100)
+- ndi per capita disposable income
+- sales cigarette sales in packs per capita
+- pimin minimum price in adjoining states per pack of cigarettes
+
+### Airline (Cost for U.S. Airlines)
+
+a panel of 6 observations from 1970 to 1984
+
+*number of observations* : 90
+*country* : United States
+
+- airline airline
+- year year
+- cost total cost, in $1,000
+- output output, in revenue passenger miles, index number pf fuel price
+- lf load factor, the average capacity utilization of the fleet
