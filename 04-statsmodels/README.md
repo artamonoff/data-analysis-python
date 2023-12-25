@@ -178,6 +178,18 @@
 
 В результате создаётся объект класса [`LogitResults`](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.LogitResults.html#statsmodels.discrete.discrete_model.LogitResults), [`ProbitResults`](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.ProbitResults.html#statsmodels.discrete.discrete_model.ProbitResults) (результат подгонки модели).
 
+### Предельные значения
+
+**Важной** коэффициенты в logit/probit моделях не интерпретируются как предельные значения. Более того, предельные значения непостоянны.
+
+Два базовых подхода в вычисления предельных значения:
+- считаем предельное значение для среднего по выборке (для "среднего наблюдения")
+- среднее предельное значение по всем наблюдениям 
+
+Для вычисления используем метод `.get_margeff(at='overall')`, где
+- `at='overall'` для среднего предельного значения по всем наблюдениям 
+- `at='mean'` для предельного значения в средней точке 
+
 ### Вывод результатов подгонки
 
 Общий протокол подгонки модели регрессии выводится методом (logit)[.summary](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.LogitResults.summary.html#statsmodels.discrete.discrete_model.LogitResults.summary), (probit)[.summary](https://www.statsmodels.org/stable/generated/statsmodels.discrete.discrete_model.ProbitResults.summary.html#statsmodels.discrete.discrete_model.ProbitResults.summary) `(yname=None, xname=None, title=None, alpha=0.05)`
