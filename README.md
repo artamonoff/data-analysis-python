@@ -1,5 +1,7 @@
 # Основы анализа данных в Python
 
+Как установить программное обеспечение [`how-to-install-python.md`](https://github.com/artamonoff/data-analysis-python/blob/main/how-to-install-python.md)
+
 ## Jupyter Notebook & Lab
 
 Файлы Jupyter Notebook имеют расширение `.ipynb`
