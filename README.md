@@ -56,7 +56,7 @@
 
 - `conda install -c plotly plotly`
 - `conda install pandas numpy scipy statsmodels openpyxl`
-- `conda install -c anaconda jupyter jupyterlab pandas-datareader `
+- `conda install -c anaconda jupyter jupyterlab pandas-datareader`
 - `conda install -c conda-forge yfinance matplotlib linearmodels seaborn sklearn`
 
 ## Обновление установленных библиотек
