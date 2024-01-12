@@ -1,7 +1,5 @@
 # Домашнее задание №3
 
-обновите пакет `seaborn` выполнив команду `conda install seaborn -c conda-forge`
-
 ## №1
 
 Загрузите с `finance.yahoo.com` цену акций компании Google с 01 января 2005 по н.в.
