@@ -47,10 +47,10 @@
 |[`statsmodels`](https://www.statsmodels.org)|Регрессионный анализ|
 |[`scipy.stats`](https://docs.scipy.org/doc/scipy/reference/stats.html)|статистические методы (распределения и проч)|
 |[`seaborn`](https://seaborn.pydata.org)|Визуализация статистических данных|
-|[`matplotlib`](https://matplotlib.org)|Визуалиазция данных|
-|[`plotly`](https://plotly.com/python/)|Визуалиазция данных|
+|[`matplotlib`](https://matplotlib.org)|Визуализация данных|
+|[`plotly`](https://plotly.com/python/)|Визуализация данных|
 |[`yfinance`](https://github.com/ranaroussi/yfinance)|Загрузка данных с `finance.yahoo.com`|
-|[`pandas-datareader`](https://pandas-datareader.readthedocs.io/en/latest/)|Загразука данных из внешних БД (`FRED`, `finance.yahoo.com` etc)|
+|[`pandas-datareader`](https://pandas-datareader.readthedocs.io/en/latest/)|Загрузка данных из внешних БД (`FRED`, `finance.yahoo.com` etc)|
 
 ## Установка основных библиотек
 
