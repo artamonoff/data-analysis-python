@@ -134,7 +134,7 @@
 
 ### Диагностика модели
 
-Основные тесты для диагностику линейно регрессии собраны в модуле [`.stats.diagnostic`](https://www.statsmodels.org/stable/stats.html)
+Основные тесты для диагностики линейной регрессии собраны в модуле [`.stats.diagnostic`](https://www.statsmodels.org/stable/stats.html)
 
 Базовые тесты:
 - на гетероскедастичность [`.het_arch()`](https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.het_arch.html#statsmodels.stats.diagnostic.het_arch), [`.het_breuschpagan()`](https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.het_breuschpagan.html#statsmodels.stats.diagnostic.het_breuschpagan), [`.het_goldfeldquandt()`](https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.het_goldfeldquandt.html#statsmodels.stats.diagnostic.het_goldfeldquandt), [`.het_white()`](https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.het_white.html#statsmodels.stats.diagnostic.het_white)
