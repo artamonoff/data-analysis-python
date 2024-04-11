@@ -56,10 +56,10 @@
 
 В командной строке (Anaconda PowerShell Prompt в Windows, Terminal в MacOS) выполнить следующие команды (это нужно сделать только один раз!)
 
-- `conda install -c plotly plotly`
-- `conda install pandas numpy scipy statsmodels openpyxl`
-- `conda install -c anaconda jupyter jupyterlab pandas-datareader`
-- `conda install -c conda-forge yfinance matplotlib linearmodels seaborn sklearn`
+- `conda install -c conda-forge plotly`
+- `conda install -c conda-forge pandas numpy scipy statsmodels openpyxl`
+- `conda install -c conda-forge jupyter jupyterlab pandas-datareader`
+- `conda install -c conda-forge yfinance matplotlib linearmodels seaborn scikit-learn`
 
 ## Обновление установленных библиотек
 
